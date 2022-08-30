@@ -1,0 +1,1506 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -90.40000000000002,
+    "scrollLeft": -87.99999999999994,
+    "zoomLevel": 0.9,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "상호리스트",
+        "comment": "",
+        "columns": [
+          {
+            "name": "상호명",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "079e1d5a-3a25-4a37-82cd-f5d77f7e8f81"
+          },
+          {
+            "name": "순번",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "38768817-47ee-48f0-9841-f053e0b51f0f"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 495.7137,
+          "top": 114.4579,
+          "zIndex": 498,
+          "widthName": 67,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "126da54d-fea3-4e00-b788-555a49dd8b9d"
+      },
+      {
+        "name": "사업주정보",
+        "comment": "",
+        "columns": [
+          {
+            "name": "진함",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c89c27d2-a65e-4530-a1c8-1c529fa01663"
+          },
+          {
+            "name": "연락처",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "1b6fa851-4baf-4af3-a543-3d18fbc60c71"
+          },
+          {
+            "name": "주소",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "2bfa7984-7666-4697-b747-1abf32f67ebd"
+          },
+          {
+            "name": "순번",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6fc2191f-515f-44cf-add1-1804501e80fe"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 75.4551,
+          "top": 99.7721,
+          "zIndex": 497,
+          "widthName": 67,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "600917d2-1955-460f-ae47-1fc93cc08bd3"
+      },
+      {
+        "name": "정기후원참여",
+        "comment": "",
+        "columns": [
+          {
+            "name": "정기후원참여",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 80,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "dd717cde-3ad3-4127-87d2-3a463dd7dae9"
+          },
+          {
+            "name": "uniqu정기후원",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 87.57275390625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "066b0358-4aaf-4d72-bee8-32035c6ce34c"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 910.7413,
+          "top": 826.9502,
+          "zIndex": 511,
+          "widthName": 80,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "7707026e-018d-4b10-a33d-83e8044e135a"
+      },
+      {
+        "name": "후원회원여부",
+        "comment": "",
+        "columns": [
+          {
+            "name": "후원회원",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6fbf32a7-380e-4477-a652-f7992f0fee64"
+          },
+          {
+            "name": "uniqu후원회원",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 87.57275390625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "5e648e28-ea83-4ace-a3a6-630bf9c0bd10"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1338.5693,
+          "top": 821.924,
+          "zIndex": 512,
+          "widthName": 80,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "18b9dd8e-d052-488f-ab1e-8b5dd9d26abd"
+      },
+      {
+        "name": "정기후원공통코드",
+        "comment": "",
+        "columns": [
+          {
+            "name": "순번",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "d7da5804-6ea8-439b-b4ee-d1a556f22fd4"
+          },
+          {
+            "name": "uniqu정기후원",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 87.57275390625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "d93cbfea-e521-4adf-9e5f-35df2a26e910"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 893.5998,
+          "top": 599.3202,
+          "zIndex": 510,
+          "widthName": 106,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "fa1ed03e-b140-4f2d-aaae-7cfcbecf8097"
+      },
+      {
+        "name": "영업시간정보",
+        "comment": "",
+        "columns": [
+          {
+            "name": "영업시간",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "1784f6a6-1447-4c70-a659-15d2bd300656"
+          },
+          {
+            "name": "uniqu영업시간",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 87.57275390625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "f0bb3a01-91f2-4245-98a1-88bfa80a37ab"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 851.4758,
+          "top": 35.8077,
+          "zIndex": 500,
+          "widthName": 80,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "a7ae1ba9-d7ad-46c5-96ff-efc62aa59ff9"
+      },
+      {
+        "name": "후원회원공통코드",
+        "comment": "",
+        "columns": [
+          {
+            "name": "순번",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "5251fce6-e123-4799-be43-775e89adc6a1"
+          },
+          {
+            "name": "uniqu후원회원",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 87.57275390625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "e996f563-1bdd-4175-897b-08b0a9665e4a"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1338.5694,
+          "top": 602.2678,
+          "zIndex": 513,
+          "widthName": 106,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "7f973a5d-a09a-47c8-bccc-3d29c5b2ca7f"
+      },
+      {
+        "name": "제공대상1정보",
+        "comment": "",
+        "columns": [
+          {
+            "name": "대상자1",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "841762d3-c681-4f23-8972-a6da1257c8cb"
+          },
+          {
+            "name": "uniqu대상자1",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 81.73291015625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "31c64542-0ca7-49e5-989c-18022bec3a83"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 85.2668,
+          "top": 827.6568,
+          "zIndex": 507,
+          "widthName": 87.16015625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "9757d28b-0071-4cc0-8274-89f65f225324"
+      },
+      {
+        "name": "제공품목정보",
+        "comment": "",
+        "columns": [
+          {
+            "name": "제공품목",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "acf1a41d-a3b5-4d81-8455-a6007d61b7e6"
+          },
+          {
+            "name": "uniqu제공품목",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 87.57275390625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "7db38b63-2342-488d-86c2-2bf34a144dc1"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 917.5606,
+          "top": 357.9639,
+          "zIndex": 501,
+          "widthName": 80,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "39ed02a9-489e-48fb-bcb9-a1e45f262faa"
+      },
+      {
+        "name": "제공대상2정보",
+        "comment": "",
+        "columns": [
+          {
+            "name": "대상자2",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "97501520-e644-4d35-9e57-fc10a6f06410"
+          },
+          {
+            "name": "uniqu대상자2",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 81.73291015625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6351d2ff-032e-4a5d-9c93-2acd1ee9a50b"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 494.9798,
+          "top": 825.114,
+          "zIndex": 509,
+          "widthName": 87.16015625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "7be5f717-2783-47cb-83ce-8d6b3f6510b3"
+      },
+      {
+        "name": "지역정보",
+        "comment": "",
+        "columns": [
+          {
+            "name": "지역",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "d8c6fbc2-65d6-4458-a422-e9eea1bf0d05"
+          },
+          {
+            "name": "uniqu 지역",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 66.14306640625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "bf799236-136b-43d8-89a2-c63f06fda9f7"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 856.1138,
+          "top": 201.7136,
+          "zIndex": 502,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "8d488bca-5c86-4677-8002-7b333999bac4"
+      },
+      {
+        "name": "대상자2공통코드",
+        "comment": "",
+        "columns": [
+          {
+            "name": "순번",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "985dd949-be49-4ca1-8357-6fd2daa0bf23"
+          },
+          {
+            "name": "uniqu대상자2",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 81.73291015625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c376c979-d4ef-4334-b027-300e3d1e9ef9"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 483.1931,
+          "top": 600.1043,
+          "zIndex": 508,
+          "widthName": 100.16015625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "03c29afe-f1b4-4650-9dac-4f03b8659f5b"
+      },
+      {
+        "name": "대상자1공통코드",
+        "comment": "",
+        "columns": [
+          {
+            "name": "순번",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "bb68c08f-a342-44a1-b90d-1df5282675ad"
+          },
+          {
+            "name": "uniqu대상자1",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 81.73291015625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "8abf248d-5b4a-4051-a5be-97a5ed8c92c8"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 89.7144,
+          "top": 599.8852,
+          "zIndex": 506,
+          "widthName": 100.16015625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "9337b34c-0518-4f6c-be3c-af4c6a3c43c7"
+      },
+      {
+        "name": "지역공통코드",
+        "comment": "",
+        "columns": [
+          {
+            "name": "uniqu 지역",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 66.14306640625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "5e2c03c1-b6ab-4d62-b359-21dc8ce849db"
+          },
+          {
+            "name": "순번",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "df1a559f-2227-4c1c-b516-86b4ce1c4ab2"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1340.7161,
+          "top": 211.8286,
+          "zIndex": 505,
+          "widthName": 80,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "d4c2c97c-6c81-492e-b313-5c142ff902c8"
+      },
+      {
+        "name": "영업시간공통코드",
+        "comment": "",
+        "columns": [
+          {
+            "name": "",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "dd5af8c9-fec3-4ee9-8d52-174189792a41"
+          },
+          {
+            "name": "uniqu영업시간",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 87.57275390625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "94a6a6b0-7dee-442c-91c1-ec78c3b834f3"
+          },
+          {
+            "name": "순번",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "0fa49447-782e-4b9c-8f9e-460513ab2ff2"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1251.5035,
+          "top": 29.0681,
+          "zIndex": 503,
+          "widthName": 106,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "19d8541d-5bfb-4db0-9799-0828120a714e"
+      },
+      {
+        "name": "제품정보공통코드",
+        "comment": "",
+        "columns": [
+          {
+            "name": "uniqu제공품목",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 87.57275390625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "0cdaf7c9-c19a-4666-a9b9-2e7efb4acdcb"
+          },
+          {
+            "name": "순번",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "06962eaa-169c-4b61-a34a-248487f4013d"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1384.0017,
+          "top": 381.9429,
+          "zIndex": 504,
+          "widthName": 106,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "0a024fdb-8889-4340-bc8a-a71f3c58acb6"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "600917d2-1955-460f-ae47-1fc93cc08bd3",
+          "columnIds": [
+            "6fc2191f-515f-44cf-add1-1804501e80fe"
+          ],
+          "x": 422.4551,
+          "y": 112.35543333333334,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "126da54d-fea3-4e00-b788-555a49dd8b9d",
+          "columnIds": [
+            "38768817-47ee-48f0-9841-f053e0b51f0f"
+          ],
+          "x": 495.7137,
+          "y": 169.4579,
+          "direction": "left"
+        },
+        "constraintName": "fk_사업주정보_to_상호리스트",
+        "visible": true,
+        "id": "e9694101-ba44-4eb0-aa07-a36f4455796e"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "600917d2-1955-460f-ae47-1fc93cc08bd3",
+          "columnIds": [
+            "6fc2191f-515f-44cf-add1-1804501e80fe"
+          ],
+          "x": 422.4551,
+          "y": 187.8554333333333,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "d4c2c97c-6c81-492e-b313-5c142ff902c8",
+          "columnIds": [
+            "df1a559f-2227-4c1c-b516-86b4ce1c4ab2"
+          ],
+          "x": 1340.7161,
+          "y": 294.3286,
+          "direction": "left"
+        },
+        "constraintName": "fk_사업주정보_to_지역공통코드",
+        "visible": true,
+        "id": "fc900e27-d0f3-4628-b146-cc740767b83d"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "600917d2-1955-460f-ae47-1fc93cc08bd3",
+          "columnIds": [
+            "6fc2191f-515f-44cf-add1-1804501e80fe"
+          ],
+          "x": 162.20510000000002,
+          "y": 250.7721,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "9337b34c-0518-4f6c-be3c-af4c6a3c43c7",
+          "columnIds": [
+            "bb68c08f-a342-44a1-b90d-1df5282675ad"
+          ],
+          "x": 274.080855078125,
+          "y": 599.8852,
+          "direction": "top"
+        },
+        "constraintName": "fk_사업주정보_to_대상자1공통코드",
+        "visible": true,
+        "id": "80648187-1019-40fd-9366-619ef4ce97ce"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "600917d2-1955-460f-ae47-1fc93cc08bd3",
+          "columnIds": [
+            "6fc2191f-515f-44cf-add1-1804501e80fe"
+          ],
+          "x": 335.7051,
+          "y": 250.7721,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "03c29afe-f1b4-4650-9dac-4f03b8659f5b",
+          "columnIds": [
+            "985dd949-be49-4ca1-8357-6fd2daa0bf23"
+          ],
+          "x": 483.1931,
+          "y": 655.1043,
+          "direction": "left"
+        },
+        "constraintName": "fk_사업주정보_to_대상자2공통코드",
+        "visible": true,
+        "id": "cf046020-7bf4-4d24-bd12-6dbc5161f211"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "600917d2-1955-460f-ae47-1fc93cc08bd3",
+          "columnIds": [
+            "6fc2191f-515f-44cf-add1-1804501e80fe"
+          ],
+          "x": 422.4551,
+          "y": 137.5221,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "fa1ed03e-b140-4f2d-aaae-7cfcbecf8097",
+          "columnIds": [
+            "d7da5804-6ea8-439b-b4ee-d1a556f22fd4"
+          ],
+          "x": 893.5998,
+          "y": 654.3202,
+          "direction": "left"
+        },
+        "constraintName": "fk_사업주정보_to_정기후원공통코드",
+        "visible": true,
+        "id": "91bec15a-ae36-46df-adf0-ec6b75968bbe"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "600917d2-1955-460f-ae47-1fc93cc08bd3",
+          "columnIds": [
+            "6fc2191f-515f-44cf-add1-1804501e80fe"
+          ],
+          "x": 422.4551,
+          "y": 238.18876666666662,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "7f973a5d-a09a-47c8-bccc-3d29c5b2ca7f",
+          "columnIds": [
+            "5251fce6-e123-4799-be43-775e89adc6a1"
+          ],
+          "x": 1338.5694,
+          "y": 657.2678,
+          "direction": "left"
+        },
+        "constraintName": "fk_사업주정보_to_후원회원공통코드",
+        "visible": true,
+        "id": "ed2996ef-40e8-426f-9d8e-9c2daf3d618f"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "8d488bca-5c86-4677-8002-7b333999bac4",
+          "columnIds": [
+            "bf799236-136b-43d8-89a2-c63f06fda9f7"
+          ],
+          "x": 1209.25686640625,
+          "y": 256.71360000000004,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "d4c2c97c-6c81-492e-b313-5c142ff902c8",
+          "columnIds": [
+            "5e2c03c1-b6ab-4d62-b359-21dc8ce849db"
+          ],
+          "x": 1340.7161,
+          "y": 239.3286,
+          "direction": "left"
+        },
+        "constraintName": "fk_지역정보_to_지역공통코드",
+        "visible": true,
+        "id": "34c89744-4b4b-4d4d-b39d-7f601420685d"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "9757d28b-0071-4cc0-8274-89f65f225324",
+          "columnIds": [
+            "31c64542-0ca7-49e5-989c-18022bec3a83"
+          ],
+          "x": 269.633255078125,
+          "y": 827.6568,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "9337b34c-0518-4f6c-be3c-af4c6a3c43c7",
+          "columnIds": [
+            "8abf248d-5b4a-4051-a5be-97a5ed8c92c8"
+          ],
+          "x": 274.080855078125,
+          "y": 709.8852,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_제공대상1정보_to_대상자1공통코드",
+        "visible": true,
+        "id": "7720c459-4dc6-43e6-93c4-447a329680cb"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "7be5f717-2783-47cb-83ce-8d6b3f6510b3",
+          "columnIds": [
+            "6351d2ff-032e-4a5d-9c93-2acd1ee9a50b"
+          ],
+          "x": 679.3462550781251,
+          "y": 825.114,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "03c29afe-f1b4-4650-9dac-4f03b8659f5b",
+          "columnIds": [
+            "c376c979-d4ef-4334-b027-300e3d1e9ef9"
+          ],
+          "x": 667.559555078125,
+          "y": 710.1043,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_제공대상2정보_to_대상자2공통코드",
+        "visible": true,
+        "id": "0dfa9c67-207a-4f1a-978e-f097ebb9f4df"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "7707026e-018d-4b10-a33d-83e8044e135a",
+          "columnIds": [
+            "066b0358-4aaf-4d72-bee8-32035c6ce34c"
+          ],
+          "x": 1098.0276769531251,
+          "y": 826.9502,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "fa1ed03e-b140-4f2d-aaae-7cfcbecf8097",
+          "columnIds": [
+            "d93cbfea-e521-4adf-9e5f-35df2a26e910"
+          ],
+          "x": 1080.886176953125,
+          "y": 709.3202,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_정기후원참여_to_정기후원공통코드",
+        "visible": true,
+        "id": "28a62870-cf47-4504-85f1-f481862c4a3e"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "18b9dd8e-d052-488f-ab1e-8b5dd9d26abd",
+          "columnIds": [
+            "5e648e28-ea83-4ace-a3a6-630bf9c0bd10"
+          ],
+          "x": 1525.855676953125,
+          "y": 821.924,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "7f973a5d-a09a-47c8-bccc-3d29c5b2ca7f",
+          "columnIds": [
+            "e996f563-1bdd-4175-897b-08b0a9665e4a"
+          ],
+          "x": 1525.855776953125,
+          "y": 712.2678,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_후원회원여부_to_후원회원공통코드",
+        "visible": true,
+        "id": "373bcbd1-08ee-43d9-a60a-e5558f688972"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "a7ae1ba9-d7ad-46c5-96ff-efc62aa59ff9",
+          "columnIds": [
+            "f0bb3a01-91f2-4245-98a1-88bfa80a37ab"
+          ],
+          "x": 1226.0485539062502,
+          "y": 90.8077,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "19d8541d-5bfb-4db0-9799-0828120a714e",
+          "columnIds": [
+            "94a6a6b0-7dee-442c-91c1-ec78c3b834f3"
+          ],
+          "x": 1251.5035,
+          "y": 61.6931,
+          "direction": "left"
+        },
+        "constraintName": "fk_영업시간정보_to_영업시간공통코드",
+        "visible": true,
+        "id": "4285e73c-a259-4473-9ebe-983a75c73b77"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "39ed02a9-489e-48fb-bcb9-a1e45f262faa",
+          "columnIds": [
+            "7db38b63-2342-488d-86c2-2bf34a144dc1"
+          ],
+          "x": 1292.13335390625,
+          "y": 412.9639,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "0a024fdb-8889-4340-bc8a-a71f3c58acb6",
+          "columnIds": [
+            "0cdaf7c9-c19a-4666-a9b9-2e7efb4acdcb"
+          ],
+          "x": 1384.0017,
+          "y": 409.4429,
+          "direction": "left"
+        },
+        "constraintName": "fk_제공품목정보_to_제품정보공통코드",
+        "visible": true,
+        "id": "9090645e-9da0-4282-b5a3-bfd8ba937e66"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "600917d2-1955-460f-ae47-1fc93cc08bd3",
+          "columnIds": [
+            "6fc2191f-515f-44cf-add1-1804501e80fe"
+          ],
+          "x": 422.4551,
+          "y": 213.02209999999997,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "0a024fdb-8889-4340-bc8a-a71f3c58acb6",
+          "columnIds": [
+            "06962eaa-169c-4b61-a34a-248487f4013d"
+          ],
+          "x": 1384.0017,
+          "y": 464.4429,
+          "direction": "left"
+        },
+        "constraintName": "fk_사업주정보_to_제품정보공통코드",
+        "visible": true,
+        "id": "f51910d9-11d4-44ae-8b0c-ec29f28123d4"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "600917d2-1955-460f-ae47-1fc93cc08bd3",
+          "columnIds": [
+            "6fc2191f-515f-44cf-add1-1804501e80fe"
+          ],
+          "x": 422.4551,
+          "y": 162.68876666666665,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "19d8541d-5bfb-4db0-9799-0828120a714e",
+          "columnIds": [
+            "0fa49447-782e-4b9c-8f9e-460513ab2ff2"
+          ],
+          "x": 1251.5035,
+          "y": 126.9431,
+          "direction": "left"
+        },
+        "constraintName": "fk_사업주정보_to_영업시간공통코드",
+        "visible": true,
+        "id": "5098af7e-4863-4eda-8dcc-f4c7472aee1e"
+      }
+    ]
+  }
+}
