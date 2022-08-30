@@ -1,0 +1,557 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": -4,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "직원정보",
+        "comment": "",
+        "columns": [
+          {
+            "name": "직원ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a8edbe41-b9f5-41cd-a941-b4732db4b04a"
+          },
+          {
+            "name": "이메일",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3bcf1995-1605-4f24-a036-d93f56690c53"
+          },
+          {
+            "name": "이름",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "1b0fab6b-742e-41da-b8bc-b52b3f7ac474"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 16,
+          "top": 35.2,
+          "zIndex": 331,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "6e545a0b-bba4-46d9-9ffa-17f4a12b7974"
+      },
+      {
+        "name": "업무코드",
+        "comment": "",
+        "columns": [
+          {
+            "name": "업무코드",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "42eaa823-f4ae-4b12-bedb-c728dccbb5cc"
+          },
+          {
+            "name": "담당업무",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "7f796dc7-80a0-47a1-9f95-52ba9ca27504"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 16.8,
+          "top": 464.8,
+          "zIndex": 315,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "8d1e270f-1f48-43eb-bf0a-3c6125aa9bcd"
+      },
+      {
+        "name": "관리자코드",
+        "comment": "",
+        "columns": [
+          {
+            "name": "관리자공통코드",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 93,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "aaf5ad8c-de8a-454d-927d-139a50e4e37e"
+          },
+          {
+            "name": "관리자코드",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 67,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "fbcfc948-de15-4735-aca4-41bd458c3cc0"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 740.8,
+          "top": 484.8,
+          "zIndex": 319,
+          "widthName": 67,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "10718f93-0644-4e15-8423-4a29bdc6dd9d"
+      },
+      {
+        "name": "담당업무코드",
+        "comment": "",
+        "columns": [
+          {
+            "name": "직원ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9a93fc64-4868-4880-9de6-591c1b26c612"
+          },
+          {
+            "name": "업무코드",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "75162eef-684a-4b7a-9cf4-6a3762678323"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 16,
+          "top": 255.2,
+          "zIndex": 314,
+          "widthName": 80,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "3120e0db-ace0-4307-af54-667fbe029d5d"
+      },
+      {
+        "name": "관리자공통코드",
+        "comment": "",
+        "columns": [
+          {
+            "name": "직원ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a6f2ffe5-fc9f-4364-bc9b-3806449389ca"
+          },
+          {
+            "name": "관리자공통코드",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 93,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a73dd8e9-2f85-4b13-855f-d061510952b4"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 736,
+          "top": 78.4,
+          "zIndex": 318,
+          "widthName": 93,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "65facbbc-bea8-489c-bcb8-e485af2c69e1"
+      },
+      {
+        "name": "이메일",
+        "comment": "",
+        "columns": [
+          {
+            "name": "직원ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "1f28b177-99ec-4255-861d-8e8b22187751"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 468.8,
+          "top": 308.8,
+          "zIndex": 330,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "605932aa-d687-471c-a20a-7d292e512221"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "6e545a0b-bba4-46d9-9ffa-17f4a12b7974",
+          "columnIds": [
+            "a8edbe41-b9f5-41cd-a941-b4732db4b04a"
+          ],
+          "x": 189.5,
+          "y": 165.7,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "3120e0db-ace0-4307-af54-667fbe029d5d",
+          "columnIds": [
+            "9a93fc64-4868-4880-9de6-591c1b26c612"
+          ],
+          "x": 189.5,
+          "y": 255.2,
+          "direction": "top"
+        },
+        "constraintName": "fk_직원정보_to_담당업무코드",
+        "visible": true,
+        "id": "3529dbf5-9d20-4c4c-8868-850cd59498e8"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "8d1e270f-1f48-43eb-bf0a-3c6125aa9bcd",
+          "columnIds": [
+            "42eaa823-f4ae-4b12-bedb-c728dccbb5cc"
+          ],
+          "x": 190.3,
+          "y": 464.8,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "3120e0db-ace0-4307-af54-667fbe029d5d",
+          "columnIds": [
+            "75162eef-684a-4b7a-9cf4-6a3762678323"
+          ],
+          "x": 189.5,
+          "y": 365.2,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_업무코드_to_담당업무코드",
+        "visible": true,
+        "id": "6e3251e0-8550-41b4-a5b6-7742b3cf066f"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "6e545a0b-bba4-46d9-9ffa-17f4a12b7974",
+          "columnIds": [
+            "a8edbe41-b9f5-41cd-a941-b4732db4b04a"
+          ],
+          "x": 363,
+          "y": 133.075,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "65facbbc-bea8-489c-bcb8-e485af2c69e1",
+          "columnIds": [
+            "a6f2ffe5-fc9f-4364-bc9b-3806449389ca"
+          ],
+          "x": 736,
+          "y": 133.4,
+          "direction": "left"
+        },
+        "constraintName": "fk_직원정보_to_관리자공통코드",
+        "visible": true,
+        "id": "fa3ef06b-3540-46d2-907c-ae9259d5e3f2"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "10718f93-0644-4e15-8423-4a29bdc6dd9d",
+          "columnIds": [
+            "aaf5ad8c-de8a-454d-927d-139a50e4e37e"
+          ],
+          "x": 930.8,
+          "y": 484.8,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "65facbbc-bea8-489c-bcb8-e485af2c69e1",
+          "columnIds": [
+            "a73dd8e9-2f85-4b13-855f-d061510952b4"
+          ],
+          "x": 926,
+          "y": 188.4,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_관리자코드_to_관리자공통코드",
+        "visible": true,
+        "id": "99f066b1-6747-4dca-a2a5-7b9a41936ba8"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "6e545a0b-bba4-46d9-9ffa-17f4a12b7974",
+          "columnIds": [
+            "a8edbe41-b9f5-41cd-a941-b4732db4b04a"
+          ],
+          "x": 363,
+          "y": 67.825,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "605932aa-d687-471c-a20a-7d292e512221",
+          "columnIds": [
+            "1f28b177-99ec-4255-861d-8e8b22187751"
+          ],
+          "x": 468.8,
+          "y": 353.55,
+          "direction": "left"
+        },
+        "constraintName": "fk_직원정보_to_이메일",
+        "visible": true,
+        "id": "376ca325-8b60-4ffd-87ce-e75b7938f03a"
+      }
+    ]
+  }
+}
