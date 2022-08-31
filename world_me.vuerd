@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -54.4,
-    "scrollLeft": -36,
+    "scrollTop": 0,
+    "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -164,9 +164,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 79.2,
-          "top": 71.2,
-          "zIndex": 356,
+          "left": 41.6,
+          "top": 25.6,
+          "zIndex": 5,
           "widthName": 60,
           "widthComment": 60
         },
@@ -272,9 +272,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 624,
-          "top": 84.8,
-          "zIndex": 345,
+          "left": 629.6,
+          "top": 32,
+          "zIndex": 6,
           "widthName": 125.30322265625,
           "widthComment": 67
         },
@@ -632,10 +632,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 343.6,
-          "top": 308.4,
-          "zIndex": 357,
+          "active": true,
+          "left": 346,
+          "top": 233.2,
+          "zIndex": 7,
           "widthName": 70.94189453125,
           "widthComment": 60
         },
@@ -659,8 +659,8 @@
           "columnIds": [
             "c96525f3-4502-4ac9-a174-531374bf8768"
           ],
-          "x": 624,
-          "y": 160.3,
+          "x": 629.6,
+          "y": 107.5,
           "direction": "left"
         },
         "end": {
@@ -668,8 +668,8 @@
           "columnIds": [
             "76fdc850-cff9-4b31-8971-ba067acc856e"
           ],
-          "x": 475.43583984375,
-          "y": 156.95,
+          "x": 437.83583984375,
+          "y": 111.35,
           "direction": "right"
         },
         "constraintName": "fk_countrylanguage_me_to_city_me",
