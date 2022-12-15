@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -197.60000000000042,
-    "scrollLeft": -200.1333333333339,
-    "zoomLevel": 0.9,
+    "scrollTop": -156.80000000000038,
+    "scrollLeft": -207.333333333334,
+    "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -479,7 +479,7 @@
           {
             "name": "ROOMTYPE",
             "comment": "룸타입",
-            "dataType": "INT",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -494,7 +494,7 @@
               "pfk": false,
               "widthName": 76.39453125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 64.6005859375,
               "widthDefault": 60
             },
             "id": "546bc4fe-f155-4d70-b570-0d4cf506c748"
@@ -573,7 +573,7 @@
           "active": false,
           "left": 962.6023,
           "top": 43.2221,
-          "zIndex": 97,
+          "zIndex": 123,
           "widthName": 69.89453125,
           "widthComment": 60
         },
@@ -633,13 +633,13 @@
           {
             "name": "LAT",
             "comment": "위도",
-            "dataType": "",
+            "dataType": "DECIMAL",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -656,13 +656,13 @@
           {
             "name": "LNG",
             "comment": "경도",
-            "dataType": "",
+            "dataType": "DECIMAL",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -679,13 +679,13 @@
           {
             "name": "ADDRESS",
             "comment": "매물주소",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -694,7 +694,7 @@
               "pfk": false,
               "widthName": 64.84814453125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 64.6005859375,
               "widthDefault": 60
             },
             "id": "9ddf7678-86af-4bbd-8d77-3523de815f08"
@@ -702,13 +702,13 @@
           {
             "name": "PICTURE",
             "comment": "방사진",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -717,7 +717,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 64.6005859375,
               "widthDefault": 60
             },
             "id": "614cb9de-7a54-4534-b727-f6a4bb6d4e29"
@@ -725,13 +725,13 @@
           {
             "name": "TYPE",
             "comment": "전/월세",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -740,7 +740,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 64.6005859375,
               "widthDefault": 60
             },
             "id": "05c0e832-693a-481c-8ea9-f8e2e9cc54d8"
@@ -748,13 +748,13 @@
           {
             "name": "ROOMTYPE",
             "comment": "룸타입",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -763,7 +763,7 @@
               "pfk": false,
               "widthName": 76.39453125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 64.6005859375,
               "widthDefault": 60
             },
             "id": "59d57737-0ff1-4685-b5ee-91019f3aa582"
@@ -771,13 +771,13 @@
           {
             "name": "DEPOSIT",
             "comment": "보증금",
-            "dataType": "",
+            "dataType": "INT",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -794,7 +794,7 @@
           {
             "name": "MONTH_FEE",
             "comment": "월세",
-            "dataType": "",
+            "dataType": "INT",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -816,10 +816,10 @@
           }
         ],
         "ui": {
-          "active": false,
+          "active": true,
           "left": 507,
           "top": 321.1365,
-          "zIndex": 102,
+          "zIndex": 126,
           "widthName": 67.0126953125,
           "widthComment": 80
         },
@@ -878,7 +878,7 @@
           "columnIds": [
             "256cad67-bee6-45c0-ae2f-1efad0743f8d"
           ],
-          "x": 876.1708984375,
+          "x": 880.771484375,
           "y": 458.1365,
           "direction": "right"
         },
