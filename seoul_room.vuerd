@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -156.80000000000038,
-    "scrollLeft": -207.333333333334,
+    "scrollTop": -198.40000000000066,
+    "scrollLeft": -200.13333333333398,
     "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
@@ -570,10 +570,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 962.6023,
-          "top": 43.2221,
-          "zIndex": 123,
+          "active": true,
+          "left": 1007.6023,
+          "top": 87.2221,
+          "zIndex": 140,
           "widthName": 69.89453125,
           "widthComment": 60
         },
@@ -675,6 +675,29 @@
               "widthDefault": 60
             },
             "id": "5dc57a37-712d-4fee-baa5-ee739cfa05f8"
+          },
+          {
+            "name": "URL",
+            "comment": "매물링크페이지",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 93,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "2415bf24-93d5-4866-82f2-ce5de1e733d1"
           },
           {
             "name": "ADDRESS",
@@ -816,10 +839,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 507,
           "top": 321.1365,
-          "zIndex": 126,
+          "zIndex": 139,
           "widthName": 67.0126953125,
           "widthComment": 80
         },
@@ -853,7 +876,7 @@
             "067010cb-1275-4875-92f9-b9bb1098a877"
           ],
           "x": 507,
-          "y": 458.1365,
+          "y": 468.3865,
           "direction": "left"
         },
         "constraintName": "fk_userinfo_to_recolist",
@@ -869,8 +892,8 @@
           "columnIds": [
             "3166987a-f6fe-4a8b-b274-584bff806628"
           ],
-          "x": 962.6023,
-          "y": 210.9721,
+          "x": 1007.6023,
+          "y": 254.9721,
           "direction": "left"
         },
         "end": {
@@ -878,8 +901,8 @@
           "columnIds": [
             "256cad67-bee6-45c0-ae2f-1efad0743f8d"
           ],
-          "x": 880.771484375,
-          "y": 458.1365,
+          "x": 913.771484375,
+          "y": 468.3865,
           "direction": "right"
         },
         "constraintName": "fk_roomlist_to_recolist",
